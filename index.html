@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Salut Audry!</h1>
-    <p>this code is going to Github</p>
+    <div id="container">
+        <h1>DICE ROLLER</h1>
+        <label>#Of Dice : <input type="number" id="diceCount" min="1" max="6" value="1"></label><br><br>
+        <button onclick="rollDice()">Roll dice</button>
+        <div id="Diceresult"></div>
+        <div id="diceImages"></div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>
