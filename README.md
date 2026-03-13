@@ -1,2 +1,1 @@
-#demo
- some description!
+Dice program using html,css and Javascript
